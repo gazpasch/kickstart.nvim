@@ -240,6 +240,7 @@ do
   -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
   -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
 
+  vim.keymap.set('n', 'gg', '<cmd>LazyGit<CR>')
   -- [[ Basic Autocommands ]]
   --  See `:help lua-guide-autocommands`
 
